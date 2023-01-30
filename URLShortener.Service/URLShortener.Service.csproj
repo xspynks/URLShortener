@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\URLShortener.Model\URLShortener.Model.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Ardalis.Result">
+        <HintPath>..\..\..\..\..\.nuget\packages\ardalis.result\4.1.0\lib\net6.0\Ardalis.Result.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
